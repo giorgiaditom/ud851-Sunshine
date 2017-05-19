@@ -18,6 +18,7 @@ package com.example.android.sunshine;
 import android.os.AsyncTask;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.support.v7.widget.RecyclerView;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -51,6 +52,7 @@ public class MainActivity extends AppCompatActivity {
 
     // Within ForecastAdapter.java /////////////////////////////////////////////////////////////////
     // TODO (15) Add a class file called ForecastAdapter
+
     // TODO (22) Extend RecyclerView.Adapter<ForecastAdapter.ForecastAdapterViewHolder>
 
     // TODO (23) Create a private string array called mWeatherData
@@ -59,6 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
     // TODO (16) Create a class within ForecastAdapter called ForecastAdapterViewHolder
     // TODO (17) Extend RecyclerView.ViewHolder
+
 
     // Within ForecastAdapterViewHolder ///////////////////////////////////////////////////////////
     // TODO (18) Create a public final TextView variable called mWeatherTextView
